@@ -42,6 +42,7 @@ public class LDHttpClient extends BlkeeHttpClient {
             blkeeHttpInteface.setResultCode(responseResultCode);
             blkeeHttpInteface.setResultMsg(responseResultMsg);
             listener.run(blkeeHttpInteface);
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
